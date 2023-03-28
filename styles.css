@@ -22,10 +22,14 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
   width: 92vw;
-  max-width: 680px;
+  max-width: 460px;
   display: flex;
   flex-direction: column;
   margin: 4vh auto 0 auto;
+}
+
+img#desktop {
+  display:none;
 }
 
 img#mobile {
@@ -36,7 +40,6 @@ img#mobile {
 .info {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   width: 85%;
   margin: 0 auto;
   align-content: space-around;
@@ -101,4 +104,71 @@ button {
 
 #cart-logo {
   height: 14px;
+}
+
+/* Media query to change design for desktop screen */
+
+@media screen and (min-width: 1440px) {
+
+  img#mobile {
+    display: none;
+  }
+
+  .card {
+    flex-direction: row;
+    margin-top: 16vh;
+    min-width: 680px;
+    max-height: 510px;
+  }
+
+  img#desktop {
+    display: block;
+    width: 340px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .info {
+    padding: 20px 35px;
+  } 
+
+  h1 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  h2 {
+    padding-bottom: 25px;
+    font-size: 16px;
+  }
+
+  p {
+    line-height: 26px;
+  }
+
+  #text {
+    padding: 35px 0;
+    font-size: 16px;
+}
+
+.price {
+  padding-bottom: 35px;
+}
+
+#sale-cost {
+  font-size: 36px;
+}
+
+#cost {
+  font-size: 16px;
+}
+
+button {
+  border-radius: 8px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+button:active {
+  background-color: #1a4131;
+}
 }
