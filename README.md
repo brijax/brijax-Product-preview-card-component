@@ -39,13 +39,13 @@ Users should be able to:
 
 ### My Process
 
-I've just starting learning to code again after taking a longer than intended break. This project really tested my ability to recall knowedge I haven't used for a while. It helped me gauge how much I remember (surprisingly more than I thought!) and what I need/want to work on.
+I've just started learning to code again after taking a longer-than-intended break. This project really tested my ability to recall knowledge I haven't used for a while. It helped me gauge how much I remember (surprisingly more than I thought!) and what I need/want to work on.
 
 After opening the starter files in VS Code, I started by sectioning out the HTML and adding relevant classes and ids. I wanted to tackle the mobile version first so I added the image for the mobile screen size to the HTML - on reflection I could have added both images at this time.
 
 I then created the styles.css file. My first selector aimed to give me a 'blank slate' by eliminating any margins or padding. I added the font family here too as majority of the text would be styled with it. I tried to work down from most generalised down to the finer styling - this is something I plan to practice more.
 
-Admittedly, most of my time on this project was spent tweaking with the css to reflect the design images as accurately as possible.
+Admittedly, most of my time on this project was spent tweaking the css to reflect the design images as accurately as possible.
 
 Next I'd like to focus on improving my HTML for accessibility and incorporating Javascript into my projects.
 
