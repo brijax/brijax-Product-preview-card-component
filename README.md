@@ -45,7 +45,7 @@ After opening the starter files in VS Code, I started by sectioning out the HTML
 
 I then created the styles.css file. My first selector aimed to give me a 'blank slate' by eliminating any margins or padding. I added the font family here too as majority of the text would be styled with it. I tried to work down from most generalised down to the finer styling - this is something I plan to practice more.
 
-Admittedly, most of my time on this project was spent tweaking the css to reflect the design images as accurately as possible.
+Admittedly, most of my time on this project was spent tweaking the CSS to reflect the design images as accurately as possible.
 
 Next I'd like to focus on improving my HTML for accessibility and incorporating Javascript into my projects.
 
